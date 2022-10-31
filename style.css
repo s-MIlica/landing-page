@@ -34,6 +34,7 @@ body {
     justify-content: space-between;
     padding-bottom: 32px;
     padding-top: 32px;
+    gap:  20px;
 }
 
 .main_two {
@@ -56,6 +57,11 @@ body {
     display: flex;
     justify-content: space-between;
     gap: 48px;
+}
+
+.footer {
+    padding: 24px;
+    text-align: center;
 }
 
 .testimonial {
@@ -90,12 +96,17 @@ li {
     text-align: end;
 }
 
+li > p {
+    text-align: center;
+}
+
 a, .secondary_txt {
     text-decoration: none;
     color: #E5E7EB;
     font-size: 18px;
     margin: 0;
     padding: 0;
+    padding-bottom: 20px;
 }
 
 h3 {
@@ -105,7 +116,7 @@ h3 {
     font-weight: 900;
 }
 
-h5 {
+h4 {
     color: #F9FAF8;
     margin: 0;
     padding: 0;
